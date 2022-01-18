@@ -1,15 +1,7 @@
 import java.util.Scanner;
 
 public class Array {
-//int arr[];//instance variable
-//public Array(){
-//    arr=new int [5];
-//}
-     // declaration
-//static int arr[];//class variable declaring size is illegal
-//static {
-//    arr=new int[5];  //creation
-//}
+
     int arr[];
     Array(){
         arr=new int[10];
@@ -31,17 +23,12 @@ public class Array {
     }
     public static void main(String[] args) {
        Array obj=new Array();
-//        for (int i: obj.arr) {
-//            System.out.println(i);
-//        }
+
 
         Scanner s=new Scanner(System.in);
         for(int i=0;i< obj.arr.length;i++){
             obj.arr[i]=s.nextInt();
         }
         obj.removeDup(obj.arr);
-//        for(int res:arr){
-//            System.out.println(res);
-//        }
     }
 }
