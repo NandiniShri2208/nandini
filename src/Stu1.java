@@ -23,4 +23,3 @@ class Test45Main{
         System.out.println(abcd.obj.rollno);
     }
 }
-class Testpublic
